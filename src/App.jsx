@@ -3,7 +3,7 @@ import Main from './Frontend/Main';
 import ReferralFlow from './Frontend/ReferralFlowDiagram';
 import Table from './Frontend/Table'
 import FAQ from './Frontend/FAQ'
-import Footer from './Frontend/footer';
+import FooterSection from './Frontend/SectionFooter';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         <ReferralFlow/>
         <Table/>
         <FAQ/>
-        <Footer/>
+        <FooterSection/>
       </div>
     </>
   )

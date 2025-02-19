@@ -6,7 +6,7 @@ import { ChevronDown } from "lucide-react";
 import ReferralModal from "./ReferralModal";
 import Table from './Table'
 import FAQ from './FAQ'
-import Footer from './footer';
+import Footer from './SectionFooter';
 
 const ReferralPage = () => {
   const [selected, setSelected] = useState("Refer");

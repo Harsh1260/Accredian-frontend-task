@@ -2,7 +2,7 @@ import React from "react";
 import { Plus, Facebook, Linkedin, Twitter, Instagram, Youtube, MessageCircle } from "lucide-react";
 import Container from '../Assets/Container.png';
 
-const Footer = () => {
+const FooterSection = () => {
   return (
     <footer className="bg-[#282828] text-gray-400 py-8 mt-20">
       <div className="max-w-6xl mx-auto px-6 p-6 relative">
@@ -103,4 +103,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterSection;
